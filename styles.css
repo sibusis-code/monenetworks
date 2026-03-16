@@ -2,16 +2,16 @@
    DESIGN SYSTEM & VARIABLES
    =========================== */
 :root {
-    /* Color Palette - Trust & Professional (Blues & Greens) */
+    /* Color Palette - Mone Networks Brand Colors */
     --primary-blue: #0066CC;
     --primary-blue-dark: #004C99;
     --primary-blue-light: #3385D6;
     
-    --accent-green: #00A86B;
-    --accent-green-dark: #008556;
-    --accent-green-light: #2DBE85;
+    --accent-cyan: #00BCD4;
+    --accent-cyan-dark: #0097A7;
+    --accent-cyan-light: #4DD0E1;
     
-    --accent-teal: #0E9AA7;
+    --accent-teal: #00BCD4;
     
     --navy: #1A2332;
     --navy-light: #2C3E50;
@@ -124,7 +124,6 @@ ul {
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
     text-decoration: none;
     transition: opacity 0.3s ease;
 }
@@ -133,32 +132,9 @@ ul {
     opacity: 0.85;
 }
 
-.logo-icon {
-    height: 50px;
-    width: 50px;
-    flex-shrink: 0;
-}
-
-.logo-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.125rem;
-}
-
-.logo-brand-name {
-    font-size: 1.25rem;
-    font-weight: 800;
-    color: var(--navy);
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-}
-
-.logo-tagline {
-    font-size: 0.6875rem;
-    font-weight: 500;
-    color: var(--gray-600);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+.logo-image {
+    height: 70px;
+    width: auto;
 }
 
 .logo-svg {
@@ -175,7 +151,7 @@ ul {
 .logo-text {
     font-size: 1.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--primary-blue), var(--accent-green));
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-cyan));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -275,7 +251,7 @@ ul {
 }
 
 .hero-title .highlight {
-    color: var(--primary-blue);
+    color: var(--accent-cyan);
     position: relative;
     display: inline-block;
 }
@@ -314,7 +290,7 @@ ul {
 .trust-item .icon {
     width: 20px;
     height: 20px;
-    color: var(--accent-green);
+    color: var(--accent-cyan);
 }
 
 /* ===========================
@@ -439,7 +415,7 @@ ul {
 .step-icon {
     width: 64px;
     height: 64px;
-    background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-cyan));
     border-radius: var(--radius-lg);
     display: flex;
     align-items: center;
@@ -508,11 +484,11 @@ ul {
 }
 
 .service-icon.green {
-    background: linear-gradient(135deg, #00A86B, #2DBE85);
+    background: linear-gradient(135deg, #00BCD4, #4DD0E1);
 }
 
 .service-icon.teal {
-    background: linear-gradient(135deg, #0E9AA7, #3BB9C3);
+    background: linear-gradient(135deg, #0097A7, #00BCD4);
 }
 
 .service-icon svg {
@@ -549,7 +525,7 @@ ul {
     content: '✓';
     position: absolute;
     left: 0;
-    color: var(--accent-green);
+    color: var(--accent-cyan);
     font-weight: 700;
 }
 
@@ -658,7 +634,7 @@ ul {
 .upfront-amount {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--accent-green);
+    color: var(--accent-cyan);
 }
 
 .pricing-features {
@@ -676,7 +652,7 @@ ul {
 .check-icon {
     width: 20px;
     height: 20px;
-    color: var(--accent-green);
+    color: var(--accent-cyan);
     flex-shrink: 0;
     margin-top: 2px;
 }
@@ -734,7 +710,7 @@ ul {
 .benefit-icon {
     width: 24px;
     height: 24px;
-    color: var(--accent-green);
+    color: var(--accent-cyan);
     flex-shrink: 0;
     margin-top: 0.25rem;
 }
@@ -826,9 +802,10 @@ ul {
 }
 
 .footer-logo {
-    height: 48px;
+    height: 80px;
     width: auto;
     margin-bottom: var(--spacing-sm);
+    filter: brightness(1.1);
 }
 
 .footer-tagline {
@@ -1003,9 +980,12 @@ ul {
         display: flex;
     }
     
-    .logo-icon {
-        height: 42px;
-        width: 42px;
+    .logo-image {
+        height: 60px;
+    }
+    
+    .footer-logo {
+        height: 70px;
     }
     
     .whatsapp-float {
@@ -1018,29 +998,6 @@ ul {
     .whatsapp-float svg {
         width: 26px;
         height: 26px;
-    }
-    
-    .logo-brand-name {
-        font-size: 1.125rem;
-    }
-    whatsapp-float {
-        width: 50px;
-        height: 50px;
-        bottom: 15px;
-        right: 15px;
-    }
-    
-    .whatsapp-float svg {
-        width: 24px;
-        height: 24px;
-    }
-    
-    .logo-tagline {
-        font-size: 0.625rem;
-    }
-    
-    .footer-logo {
-        height: 40px;
     }
     
     .hero-title {
@@ -1084,17 +1041,12 @@ ul {
 }
 
 @media (max-width: 480px) {
-    .logo-icon {
-        height: 38px;
-        width: 38px;
+    .logo-image {
+        height: 50px;
     }
     
-    .logo-brand-name {
-        font-size: 1rem;
-    }
-    
-    .logo-tagline {
-        display: none;
+    .footer-logo {
+        height: 60px;
     }
     
     .hero-title {

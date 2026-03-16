@@ -1,0 +1,29 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Globe with M -->
+  <g id="logo-icon">
+    <circle cx="170" cy="225" r="80" fill="none" stroke="#0066CC" stroke-width="6"/>
+    <path d="M170 145 Q195 170, 170 225 Q145 170, 170 145Z" fill="#00BCD4"/>
+    <path d="M90 225 Q115 200, 170 225 Q115 250, 90 225Z" fill="#0066CC"/>
+    <path d="M170 305 Q145 280, 170 225 Q195 280, 170 305Z" fill="#0066CC"/>
+    <path d="M250 225 Q225 250, 170 225 Q225 200, 250 225Z" fill="#00BCD4"/>
+    
+    <!-- M Letter -->
+    <path d="M140 200 L145 250 L155 210 L165 250 L170 250 L180 210 L190 250 L195 250 L200 200 L190 200 L175 235 L165 200 L155 235 L140 200Z" fill="#0066CC"/>
+    
+    <!-- Cursor Arrow -->
+    <path d="M210 215 L240 245 L230 245 L230 260 L220 260 L220 245 L210 245 Z" fill="#00BCD4"/>
+  </g>
+  
+  <!-- MONE Text -->
+  <text x="280" y="260" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="#0066CC" letter-spacing="-2">MONE</text>
+  
+  <!-- NETWORKS Text -->
+  <text x="480" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#5A6C7D">NETWORKS</text>
+  
+  <!-- Divider Lines -->
+  <line x1="480" y1="245" x2="750" y2="245" stroke="#C0C0C0" stroke-width="2"/>
+  <line x1="480" y1="295" x2="750" y2="295" stroke="#C0C0C0" stroke-width="2"/>
+  
+  <!-- WEB DESIGN AGENCY -->
+  <text x="520" y="330" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#5A6C7D" letter-spacing="3">WEB DESIGN AGENCY</text>
+</svg>
