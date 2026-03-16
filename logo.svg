@@ -1,0 +1,23 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- MN Monogram -->
+  <g id="monogram">
+    <path d="M8 45V15H14L22 35L30 15H36V45H30V25L23 43H21L14 25V45H8Z" fill="currentColor"/>
+    <path d="M42 45V15H48L62 35V15H68V45H62L48 25V45H42Z" fill="currentColor"/>
+  </g>
+  
+  <!-- MONE NETWORKS text -->
+  <g id="company-name" fill="currentColor">
+    <text x="8" y="57" font-family="Inter, sans-serif" font-size="6" font-weight="800" letter-spacing="0.5">MONE NETWORKS</text>
+  </g>
+  
+  <!-- Accent line -->
+  <line x1="76" y1="30" x2="85" y2="30" stroke="url(#gradient)" stroke-width="2"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00A86B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

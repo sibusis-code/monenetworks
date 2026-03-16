@@ -1,0 +1,21 @@
+{
+  "name": "Mone Networks",
+  "short_name": "Mone Networks",
+  "description": "Professional Websites for R0 Upfront - South African Web Design",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0066CC",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "start_url": "/"
+}
