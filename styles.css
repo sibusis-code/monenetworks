@@ -493,6 +493,18 @@ ul {
     background: linear-gradient(135deg, #0097A7, #00BCD4);
 }
 
+.service-icon.purple {
+    background: linear-gradient(135deg, #7C3AED, #9F7AEA);
+}
+
+.service-icon.orange {
+    background: linear-gradient(135deg, #F97316, #FB923C);
+}
+
+.service-icon.pink {
+    background: linear-gradient(135deg, #EC4899, #F472B6);
+}
+
 .service-icon svg {
     width: 28px;
     height: 28px;
